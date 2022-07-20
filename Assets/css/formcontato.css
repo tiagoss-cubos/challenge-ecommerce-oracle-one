@@ -1,0 +1,131 @@
+.formcontato {
+  background-color: var(--cor-fundo-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 34.5625rem;
+  align-items: center;
+}
+
+.contato__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 16.25rem;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.formcontato__sobre {
+  height: 12.125rem;
+}
+
+.sobre__li {
+  color: inherit;
+  text-decoration: none;
+}
+
+.formcontato__formulario {
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  margin-top: 2rem;
+}
+
+.formulario__titulo {
+  margin-bottom: 0.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.form__nome {
+  border: none;
+  border-radius: 0.25rem;
+  height: 3.5rem;
+  outline: none;
+  width: 20.5rem;
+  padding: 1rem;
+}
+
+.form__mensagem {
+  border: none;
+  border-radius: 0.25rem;
+  height: 5.125rem;
+  outline: none;
+  resize: none;
+  width: 20.5rem;
+  padding: 1rem;
+}
+
+.button__enviarMsg {
+  background-color: var(--cor-fonte2);
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 3.1875rem;
+  padding: 1rem;
+  text-align: center;
+  width: 10.3125rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .formcontato {
+    flex-direction: row;
+    align-items: initial;
+    height: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .formcontato__formulario {
+    margin-top: 0;
+  }
+
+  .logo__sobre {
+    width: 11rem;
+    height: 3.125rem;
+  }
+
+  .form__nome {
+    width: 27.125rem;
+  }
+
+  .form__mensagem {
+    width: 27.125rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .form__nome {
+    width: 35rem;
+  }
+
+  .form__mensagem {
+    width: 35rem;
+  }
+
+  .formcontato {
+    height: auto;
+  }
+
+  .contato__container {
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+  }
+}

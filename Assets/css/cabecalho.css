@@ -1,0 +1,87 @@
+.cabecalho {
+  height: 7.1875rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 6.25rem;
+  height: 1.75rem;
+  margin-right: 2rem;
+}
+
+.button-login {
+  width: 8.3125rem;
+  height: 2.5rem;
+  padding: 0.75rem 1rem;
+  border: 0.0625rem solid var(--cor-fonte2);
+  border-radius: 0.25rem;
+  background-color: var(--cor-fundo-padrao);
+  color: var(--cor-fonte2);
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.cabecalho__principal {
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho__pesquisa {
+  display: none;
+}
+
+.input__pesquisa {
+  background: none;
+  border: none;
+  width: 90%;
+  outline: none;
+}
+
+.btn-pesquisar {
+  background-image: url("../imagens/lupa.png");
+  width: 1.25rem;
+  height: 1.25rem;
+  border: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .cabecalho__pesquisa {
+    display: block;
+    width: 17rem;
+    height: 2.5rem;
+    background: #f0f0f0;
+    border-radius: 1.25rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .button-login {
+    width: 10.375rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cabecalho__pesquisa {
+    width: 24.5625rem;
+  }
+
+  .logo {
+    width: 11rem;
+    height: 3.125rem;
+    margin-right: 2rem;
+  }
+
+  .button-login {
+    width: 11.375rem;
+    height: 3.1875rem;
+    padding: 1rem;
+  }
+}
