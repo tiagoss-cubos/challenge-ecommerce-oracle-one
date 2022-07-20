@@ -13,7 +13,7 @@ Nesse projeto, o desafio era criar um e-commerce utilizando apenas HTML, CSS e J
 
 #### Acesse o link abaixo para usá-lo
 
-- [E-commerce](https://tiagoss-cubos.github.io/challenge-oracle-one/)
+- [E-commerce](https://tiagoss-cubos.github.io/challenge-ecommerce-oracle-one/)
 
 #### Implementações futuras:
 
